@@ -1,0 +1,86 @@
+*,html,body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    font-family: Arial, Tahoma, sans-serif;
+    background: linear-gradient(60deg,black,white) no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    background: black;
+    width: 100%;
+    height: 90px;
+}
+
+header .container{
+    
+    height: 90px;
+    padding: 5px 25px;    
+}
+
+header .container img{
+    float: left; 
+    z-index: 1;
+}
+
+header .container h3{
+    color: white; 
+    padding-right: 70px;
+    
+}
+
+#botaoLogin{
+    width: 130px;
+    margin-left: 5px;
+}
+
+section .container{
+    height: 100%; 
+}
+
+form.acesso{
+    margin: 0 auto;
+    height: 610pt !important;
+    width: 100%;
+}
+
+
+
+.corpo.panel-body{
+    margin: 0 auto;
+    width: 40% !important;
+    
+}
+section{
+    border: 1px solid red;
+    height: 600pt !important;
+}
+
+
+
+
+.acesso .panel-heading{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid gray;
+    background: black;
+    width: 100%;
+    color: white;
+    bottom: 0%;
+    position: fixed;
+}
+
+footer .container{
+    padding: 5px 25px;    
+}

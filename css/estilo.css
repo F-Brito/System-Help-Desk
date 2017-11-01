@@ -1,0 +1,411 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    
+    font-family: Arial, Tahoma, sans-serif;
+    background: linear-gradient(60deg,white) no-repeat;
+    background-attachment: fixed;
+     
+}
+.overx{
+    overflow-x: hidden;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    background: black;
+    width: 100%;
+    top: 0% !important;             
+    position: fixed !important;
+    z-index: 9999;
+}
+
+
+
+footer {
+    
+    text-align: center;
+    border-top: 1px solid gray;
+    background: black;
+    width: 100%;
+    color: white;
+    bottom: 0%;
+    margin-top: 10px;
+    position: fixed;
+}
+
+footer .container{
+    padding: 5px 25px;
+    
+}
+
+nav .container h3{
+    color: white;
+}
+
+
+nav .container img{
+    float: left; 
+    
+}
+
+nav .container h3{
+    color: white;
+}
+.navbar.navbar-default{
+    background: black;
+    padding: 5px;
+    
+}
+.nav.navbar-nav{
+    padding: 10px 10px;
+}
+.nav.navbar-nav li a{
+    margin-left: 15px;
+    font-family: Arial, Tahoma, sans-serif;
+    color: white;
+    font-size: 17px;
+    
+}
+
+.tecnico a{
+    transition: border-bottom 0.2s !important; 
+    color: #9bf0e1 !important;
+    border-bottom: 2px solid  #9bf0e1;
+}
+
+.user a{
+    transition: border-bottom 0.2s !important; 
+    color: #9bf0e1 !important;
+    border-bottom: 2px solid  #9bf0e1;
+}
+
+.separador{
+    background: white;
+    margin: 12px 2px;
+    margin-left: 10px;
+    height: 25px;
+    width: 1px;
+}
+.nav.navbar-nav li a:hover{
+    transition: border-bottom 0.2s !important; 
+    color: #9bf0e1;
+    border-bottom: 2px solid  #9bf0e1;
+    
+}
+
+.nav.navbar-nav li a:active{
+    color: #9bf0e1 !important;
+}
+
+.nav.navbar-nav li a:visited{
+    color: none !important;
+}
+
+
+.dropdown .dropdown-toggle {
+    background: black !important;
+    color: white !important;
+}
+
+.dropdown .dropdown-toggle:hover{
+    color: #9bf0e1 !important;
+    
+}
+
+.dropdown-menu {
+    
+    background: black;
+}
+.dropdown-menu li:hover{
+    transition: border 0.2s !important; 
+    color: #9bf0e1;
+    border-bottom: 2px solid  #9bf0e1;
+    border-top: 2px solid  #9bf0e1;
+}
+.dropdown-menu li a:hover{
+    transition: none !important;
+    background: black !important;
+    color: white !important;
+    border: none !important;
+}
+
+#sair a:hover{
+    color: red;
+    border-bottom: 2px solid  red;
+}
+
+/* INDEX PÁGINA ACESSO*/
+#index{
+    margin-top: 10px;
+    
+}
+
+
+
+.tab{
+    
+    border: 2px solid black;
+    background: #fff;
+    
+}
+
+
+
+.back{
+    
+    border-top: 2px solid black;
+    background:#DCDCDC;
+}
+
+form .setor{
+    float: left;
+    
+}
+form .setor label{
+    color: black;
+    float: left;
+    margin-right: 10px;
+}
+form .setor select{
+    margin-top:-5px;
+    float: left;
+    width: 150px;
+    margin-right: 30px;
+}
+form .setor button{
+    
+    
+   margin-top: 15px;
+    width: 100px;
+    border: 1px solid black;
+    
+}
+
+form .tipo{
+    clear: both;
+    
+}
+
+.pesq{
+    
+/*    margin-left: 710px;*/
+}
+form .tipo label{
+    color: black !important;
+   float: left;
+   margin-right: 68px;
+    
+}
+form .tipo select{
+    margin-top:-5px;
+    display: inline;
+    width: 150px;
+   
+}
+
+/* PÁGINA CADASTRAR */
+form .usuarios{
+   
+    padding-right: 50px;
+    padding-left: 25px;
+}
+.usuarios .form-group.inline{
+    
+    
+    display: flex;
+    justify-content: center;
+}
+.usuarios .form-group.inline button{
+    margin-left: 10px;
+    width: 150px;
+    border: 1px solid black;
+}
+/* FIM PÁGINA CADASTRAR */
+
+/*------------------ edição da pagina index -----------------*/
+.panel-heading{
+    margin-bottom: 8%;
+}
+
+.panel-footer{
+    margin-top: 13%;
+   
+}
+.clearinverse{
+    margin-bottom: 20px;
+}
+.clear{
+    height: 75px;
+}
+
+.clear2{
+    height: 85px;
+}
+
+.clear3{
+    height: 85px;
+}
+.clear4{
+    height: 100px;
+}
+.clear5{
+    height: 115px;
+}
+.clear6{
+    height: 125px;
+}
+
+.clearbit0{
+    height: 15px;
+}
+
+.clearbit{
+    height: 37px;
+}
+
+.clearbit2{
+    height: 50px;
+}
+
+.cleardown{
+    height: 55px;
+}
+
+.panel-body{
+    margin: auto;
+    width: 65%;
+}
+
+.botao{
+    border: none;
+    margin-left: 200px !important;
+    margin-top: -40px;
+    
+}
+
+.down{
+    margin-top: 80px;
+}
+
+.down2{
+    margin-top:125px;   
+}
+
+.marginn{
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+}
+
+img.img-responsive:hover{
+    transition: all 10s ease;
+-ms-transform: rotate(-20000deg);
+-webkit-transform: rotate(-20000deg);
+-moz-transform: rotate(-20000deg);
+-o-transform: rotate(-20000deg);
+transform: rotate(-20000deg);
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal-footer .two{
+    order: -1;
+    margin-right: 12px;
+}
+
+.ajust{
+    margin-top: -10px;
+}
+
+.ajust2{
+    margin-bottom: 30px;
+}
+
+.ajust3{
+    margin-top: 4px;
+    margin-bottom: 18px;
+}
+
+img.icoedit{
+    background: no-repeat;
+    margin: -6px;
+    width: 40px;
+    height: 40px;
+}
+
+.phfooter{
+    margin: 0.2%;
+    margin-left: 4px;
+    border: 2px solid white;
+    width: 280px;
+    
+}
+
+.center{
+    text-align: center;
+    display: inline;
+    
+}
+
+.bord{
+    border: 2px solid yellow;
+}
+
+.pull{
+    margin-top: 180px;
+}
+
+.pull2{
+    margin-top: 80px;
+}
+
+.buscar{
+    width: 230px;
+    margin-left: 5%;
+    
+}
+
+.inline{
+    display: flex!important;
+    position: relative;
+    margin-top: 10px;
+}
+
+.sizebtn{
+    text-align: center;
+    width: 100px;
+}
+
+
+
+/*-------------------------- Jequiti do andré ---------------------*/
+
+img.jequiti {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+}
+        
+.aqui{
+    margin: 0%;
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+    position:relative;
+    z-index: 99999999;
+}
